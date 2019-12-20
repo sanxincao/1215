@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>发布</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+    <link href="fonts/icomoon (7)/style.css" rel="stylesheet">
+    <style>
+    .mbutton{
+      position: fixed;
+      bottom:0;
+      width: 100%;
+      height:2.5rem;
+      background-color: #50bba7;
+      color:white;
+      line-height: 2.5rem;
+      font-size:1rem;
+      border: white;
+    }
+    #m-active{
+        background-color:rgb(226, 226, 226);
+    }
+    .list-block .hidden{
+      border: 1px solid #50bba7!important;
+    }
+    </style>
+</head>
+<body>
+    <div class="page">
+      <!-- nav -->
+        <header class="bar bar-nav" >
+          <a class="button button-link button-nav pull-left" href="/demos/card" data-transition='slide-out'  style="color:white;">
+            <span class="icon-back"></span>
+            返回
+          </a>
+          <h1 class="title" style="background-color:#50bba7;color:white">发布</h1>
+        </header>
+        <!-- tab -->
+        <div class="content">
+            <div class="buttons-tab">
+                <a href="#tab1" class="tab-link active button">约球</a>
+                <a href="#tab2" class="tab-link button">约跑</a>
+              </div>
+              <div style="padding: 0;">
+                <div class="tabs">
+                  <!-- tab1约球界面 -->
+                  <div id="tab1" class="tab active">
+                                <div class="list-block" style="margin:0">
+                                  <ul>
+                                    <li class="ili">
+                                      <a href="#" class="item-link item-content mHeight">
+                                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                                        <div class="item-inner">
+                                          <span class="icon-ball"></span>
+                                          <div class="item-title" style="margin-right: 12rem;overflow:visible;">球类</div>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <input type="text" class="hidden" style="display:none;">
+                                    <li class="ili">
+                                        <a href="#" class="item-link item-content mHeight">
+                                            <div class="item-media"><i class="icon icon-f7"></i></div>
+                                            <div class="item-inner" style="padding-top:0rem">
+                                              <span class="icon-time"></span>
+                                            <div class="item-title" style="margin-right: 12rem;overflow:visible;">时间</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <input type="text" class="hidden" style="display:none;">
+                                    <li class="ili">
+                                        <a href="#" class="item-link item-content mHeight">
+                                            <div class="item-media"><i class="icon icon-f7"></i></div>
+                                            <div class="item-inner">
+                                              <span class="icon-place"></span>
+                                            <div class="item-title" style="margin-right: 12rem;overflow:visible;">地点</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <input type="text" class="hidden" style="display:none;">
+                                    <li class="ili">
+                                        <a href="#" class="item-link item-content mHeight">
+                                            <div class="item-media"><i class="icon icon-f7"></i></div>
+                                            <div class="item-inner">
+                                              <span class="icon-people"></span>
+                                            <div class="item-title" style="margin-right: 12rem;overflow:visible;" >人数</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <input type="text" class="hidden" style="display:none;">
+                                    <li>
+                                            <a href="#" class="item-content mHeight">
+                                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                                <div class="item-inner">
+                                                    <span class="icon-edit2"></span>
+                                                <div class="item-title" style="margin-right: 11rem;overflow:visible;color:black">详细信息</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    <li>
+                                        <textarea placeholder="可将对约球的详细要求写在此处" style="min-height: 400px;overflow: hidden;"></textarea>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <a href="#" class="button button-dark mbutton" >提交</a>
+                  </div>
+                  <!-- tab2约跑界面 -->
+                  <div id="tab2" class="tab">
+                    <div class="list-block" style="margin:0">
+                      <ul>
+                        <li class="ili">
+                          <a href="#" class="item-link item-content mHeight">
+                            <div class="item-media"><i class="icon icon-f7"></i></div>
+                            <div class="item-inner">
+                              <span class="icon-run"></span>
+                              <div class="item-title" style="margin-right: 12rem;overflow:visible;">跑步</div>
+                            </div>
+                          </a>
+                        </li>
+                        <input type="text" class="hidden" style="display:none;">
+                        <li class="ili">
+                            <a href="#" class="item-link item-content mHeight">
+                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                <div class="item-inner" style="padding-top:0rem">
+                                  <span class="icon-time"></span>
+                                <div class="item-title" style="margin-right: 12rem;overflow:visible;">时间</div>
+                                </div>
+                            </a>
+                        </li>
+                        <input type="text" class="hidden" style="display:none;">
+                        <li class="ili">
+                            <a href="#" class="item-link item-content mHeight">
+                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                <div class="item-inner">
+                                  <span class="icon-place"></span>
+                                <div class="item-title" style="margin-right: 12rem;overflow:visible;">地点</div>
+                                </div>
+                            </a>
+                        </li>
+                        <input type="text" class="hidden" style="display:none;">
+                        <li class="ili">
+                            <a href="#" class="item-link item-content mHeight">
+                                <div class="item-media"><i class="icon icon-f7"></i></div>
+                                <div class="item-inner">
+                                  <span class="icon-people"></span>
+                                <div class="item-title" style="margin-right: 12rem;overflow:visible;" >人数</div>
+                                </div>
+                            </a>
+                        </li>
+                        <input type="text" class="hidden" style="display:none;">
+                        <li>
+                                <a href="#" class="item-content mHeight">
+                                    <div class="item-media"><i class="icon icon-f7"></i></div>
+                                    <div class="item-inner">
+                                        <span class="icon-edit2"></span>
+                                    <div class="item-title" style="margin-right: 11rem;overflow:visible;color:black">详细信息</div>
+                                    </div>
+                                </a>
+                            </li>
+                        <li>
+                            <textarea placeholder="可将对约跑的详细要求写在此处" style="min-height: 400px;overflow: hidden;"></textarea>
+                        </li>
+                      </ul>
+                    </div>
+                    <a href="#" class="button button-dark mbutton" >提交</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+    <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+    <script>
+      // 获取不同屏幕的宽高，根据这个来调整li的高度
+        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+        var styleNode=document.createElement("style");
+        var cssText="";
+        console.log(w);
+        console.log(h);
+        if(h<800&&h>700){
+            cssText+=".mHeight{height:2.4rem}"
+        }
+        if(h>800){
+          cssText+=".mHeight{height:3.3rem}" 
+        }
+        styleNode.innerHTML=cssText;
+        document.head.appendChild(styleNode);
+      // 点击li弹出折叠input
+        function hidden(tab){
+        var itab=document.getElementById(tab);
+        var ali=itab.getElementsByClassName('ili');
+        var ainput=itab.getElementsByTagName('input');
+        for(var i=0;i<ali.length;i++){
+          ali[i].index=i;
+          ali[i].onclick=function(){
+            console.log('我被点了')
+						for(var i=0;i<ali.length;i++){	
+              ali[i].id='';
+              ainput[i].style.display='none';
+						}
+            this.id='m-active';
+						ainput[this.index].style.display='block';
+          }
+        }
+        }
+        hidden('tab1');
+        hidden('tab2');
+
+      </script>
+</body>
+</html>
