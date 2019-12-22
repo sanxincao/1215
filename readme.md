@@ -11,4 +11,8 @@
 
 ## contributing
 
+[何惠瑜]()
+[聂静宜]()
+[龚晨霞](https://github.com/clockworkoranges)
+[王涵]()
 [张添程](https://github.com/sanxincao)
